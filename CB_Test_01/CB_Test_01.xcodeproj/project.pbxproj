@@ -14,6 +14,7 @@
 		5D4F19CF1C0D870F00B3C12E /* CBSelectImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4F19CE1C0D870F00B3C12E /* CBSelectImageViewController.m */; };
 		5D4F19D31C0D8C7800B3C12E /* CBBezierTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4F19D21C0D8C7800B3C12E /* CBBezierTestViewController.m */; };
 		5D632D101C72FE9200B000FF /* CBStempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D632D0F1C72FE9100B000FF /* CBStempViewController.m */; };
+		5D87381A1C804956008074D8 /* CBNodeTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8738191C804956008074D8 /* CBNodeTestViewController.m */; };
 		5D9A9B9D1C7C5CAA008E45DE /* CBShowAniViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A9B9C1C7C5CAA008E45DE /* CBShowAniViewController.m */; };
 		5D9A9BA01C7C5DB8008E45DE /* group1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D9A9B9E1C7C5DB8008E45DE /* group1.png */; };
 		5D9A9BA11C7C5DB8008E45DE /* group2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D9A9B9F1C7C5DB8008E45DE /* group2.png */; };
@@ -67,6 +68,8 @@
 		5D632D0E1C72FE9100B000FF /* CBStempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBStempViewController.h; sourceTree = "<group>"; };
 		5D632D0F1C72FE9100B000FF /* CBStempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBStempViewController.m; sourceTree = "<group>"; };
 		5D632D111C730A8200B000FF /* CB_Test_01.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CB_Test_01.entitlements; sourceTree = "<group>"; };
+		5D8738181C804956008074D8 /* CBNodeTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBNodeTestViewController.h; sourceTree = "<group>"; };
+		5D8738191C804956008074D8 /* CBNodeTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBNodeTestViewController.m; sourceTree = "<group>"; };
 		5D9A9B9B1C7C5CAA008E45DE /* CBShowAniViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBShowAniViewController.h; sourceTree = "<group>"; };
 		5D9A9B9C1C7C5CAA008E45DE /* CBShowAniViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBShowAniViewController.m; sourceTree = "<group>"; };
 		5D9A9B9E1C7C5DB8008E45DE /* group1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group1.png; sourceTree = "<group>"; };
@@ -202,6 +205,15 @@
 			path = "计步器练习";
 			sourceTree = "<group>";
 		};
+		5D8738171C80491F008074D8 /* 链表练习 */ = {
+			isa = PBXGroup;
+			children = (
+				5D8738181C804956008074D8 /* CBNodeTestViewController.h */,
+				5D8738191C804956008074D8 /* CBNodeTestViewController.m */,
+			);
+			path = "链表练习";
+			sourceTree = "<group>";
+		};
 		5D9A9B9A1C7C5C86008E45DE /* 显示动画 */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +276,7 @@
 				5DD7150C1C06DEED003A7470 /* AppDelegate.m */,
 				5DD7150E1C06DEED003A7470 /* ViewController.h */,
 				5DD7150F1C06DEED003A7470 /* ViewController.m */,
+				5D8738171C80491F008074D8 /* 链表练习 */,
 				5D9A9B9A1C7C5C86008E45DE /* 显示动画 */,
 				5D632D0D1C72FE7D00B000FF /* 计步器练习 */,
 				5DCA481B1C7165F500A4B79D /* UIView动画 */,
@@ -548,6 +561,7 @@
 				5DC2BF121C1EAC4200ADC6B6 /* CBTestLayerViewController.swift in Sources */,
 				5D1458AB1C2B92A00034680A /* CBBlurViewController.m in Sources */,
 				5DCA48211C71C48900A4B79D /* UIImageView+CBImageView.m in Sources */,
+				5D87381A1C804956008074D8 /* CBNodeTestViewController.m in Sources */,
 				5D3CFCA31C27C13D007DB006 /* CBGradientLayerTestViewController.m in Sources */,
 				5DD7150A1C06DEED003A7470 /* main.m in Sources */,
 				5D4F19CF1C0D870F00B3C12E /* CBSelectImageViewController.m in Sources */,

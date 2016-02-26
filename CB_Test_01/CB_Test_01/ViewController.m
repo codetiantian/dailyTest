@@ -30,7 +30,7 @@
 - (NSMutableArray *)arrayData
 {
     if (!_arrayData) {
-        _arrayData = [NSMutableArray arrayWithObjects:@"UITableView继承练习", @"选择图片测试", @"贝塞尔曲线", @"CALayer练习", @"渐变图层", @"Masonry练习", @"模糊效果", @"POP动画", @"Swift练习", @"UIView动画", @"计步器练习", @"显示动画", nil];
+        _arrayData = [NSMutableArray arrayWithObjects:@"UITableView继承练习", @"选择图片测试", @"贝塞尔曲线", @"CALayer练习", @"渐变图层", @"Masonry练习", @"模糊效果", @"POP动画", @"Swift练习", @"UIView动画", @"计步器练习", @"显示动画", @"链表练习", nil];
     }
     return _arrayData;
 }
@@ -150,6 +150,12 @@
         }
             break;
             
+        case 12:        //  链表练习
+        {
+            [self turnToNodeTestVC];
+        }
+            break;
+            
             default:
             break;
     }
@@ -237,6 +243,13 @@
 {
     UIViewController *showAniVC = [self.storyboard instantiateViewControllerWithIdentifier:@"CBShowAniVC"];
     [self.navigationController pushViewController:showAniVC animated:YES];
+}
+
+//  链表练习
+- (void)turnToNodeTestVC
+{
+    UIViewController *nodeVC = [self.storyboard instantiateViewControllerWithIdentifier:@"CBNodeTestVC"];
+    [self.navigationController pushViewController:nodeVC animated:YES];
 }
 
 @end
